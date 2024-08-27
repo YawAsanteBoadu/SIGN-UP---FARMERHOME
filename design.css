@@ -39,10 +39,15 @@ body{
 }
 
 h1 p{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 800;
     text-transform: uppercase;
     color: var(--accent-color);
+}
+
+#welcome-note{
+    text-transform: uppercase;
+    font-size: xx-large;
 }
 
 
@@ -103,4 +108,34 @@ form input:focus{
 
 div:has(input:focus) > label{
     background-color: var(--text-color);
+}
+
+form button{
+    margin-top: 10px;
+    width: 50%;
+    border: none;
+    border-radius:100px;
+    padding: 0.85rem 20px; 
+    background-color: var(--accent-color);
+    color: var(--base-color);
+    font: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in 5 all;
+}
+
+form button:hover{
+    background-color: var(--text-color);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+form button:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+    
 }

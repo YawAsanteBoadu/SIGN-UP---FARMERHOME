@@ -1,0 +1,5 @@
+const form = document.getElementById("form")
+const userNameInput = document.getElementById("userName-input")
+const userEmailInput = document.getElementById("email-input")
+const userPasswordInput = document.getElementById("password-input")
+const userRepeatPassword = document.getElementById("repeat-password-input")
